@@ -1,17 +1,19 @@
 using System;
-
 class Program
 {
-    public static void Main(string[] args)
+    static void Main()
     {
-        int age = 25;                 
-        float height = 5.9f;          
-        bool isStudent = true;        
-        string name = "Preetham";     
+    
+        var age = 22;
+        var price =19.99f;
+        bool isComplete=true;
+        string message ="Hello ,C#!";
+        const double Pi =3.14159;
 
-        Console.WriteLine("Age: " + age);
-        Console.WriteLine("Height: " + height);
-        Console.WriteLine("Is Student: " + isStudent);
-        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Integer (via var): " + age);
+        Console.WriteLine("float(via var): " + price);
+        Console.WriteLine("Boolean: " + isComplete);
+        Console.WriteLine("String: " + message);
+        Console.WriteLine("Constant PI: " + Pi);
     }
 }
